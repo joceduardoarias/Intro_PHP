@@ -1,0 +1,28 @@
+Carlos Desmaras
+carlos.desmaras@gmail.com
+
+Cliente le hace peticiones al servidor y y el servidor las responde.
+xampp y wampserver, paquetes de instalacion para trabajar con la web.
+
+Requerimientos del lado del cliente:
+OS Y navegador web.
+
+mysql y php son construidos el uno para el otro. 
+no hay entornos graficos todo se desarrolla por consola o texto.
+
+cuando el simbolo esta en verde esta activo y cuando esta en naranja esta incativo.	
+
+todo lo que desarrolle en .php debe ser guardaddo en www si tengo wamp o en htdocs si es xampp.
+
+Intro PHP
+ - "Hypertext Preprocessor".
+ - permite desarrollar  web dinamicas.
+ - PHP soporta la mayoria de los webs servers
+ - El codigo de PHP  se ejecuta en el servidor, javascript se ejecuta en el navegador.
+ - Como  es un lenguaje no tipado yo puedo definir una variable para guardar entero y en otra parte del codigo usarla para guardar cadenas.
+ - Salidas por consola print, printf y echo.		
+bloque de codigo dentro de una etiqueta
+se concatenan cadenas con un punto "."
+ <?php
+
+ ?>
