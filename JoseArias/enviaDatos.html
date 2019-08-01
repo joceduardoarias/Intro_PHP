@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<!-- el formulario es una interfaz de usuario
+		 en el action va la ruta del archivo php que va procesar
+		 esa peticion
+		 * en un get no se pueden adjuntar archivos	 -->
+	<form action="procesaDatos.php" method="get">
+		<label>Nombre</label>
+		<!-- cada input debe tener un name diferente con el objetivo de que php los 
+		     levante por separado
+		     * type = "" indico que tipo de dato va recibir el fomulario -->
+		<input type="text" name="nombre">
+		
+		<br>
+		<!-- Validacion de datos en un formulario o interfaz 
+			 para esto utiliza el required-->
+		<label>Address</label>
+		<input type="email" name="email" required>
+		<br>
+		<button>Enviar</button>
+	</form>
+</body>
+</html>
