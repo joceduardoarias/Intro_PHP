@@ -39,14 +39,10 @@
         <div class="card border-secondary mb-3" style="max-width: 18rem;">
             <div class="card-header">Muestras</div>
             <div class="card-body text-secondary">
-<?php
-                for ( $i = 0; $i<$cantidad; $i++) {
-?>
-                <span style="background-color: #ccc;"></span> <?php echo $nombreColores[$i];?>
+
+                <span style="background-color: #ccc;"></span> nombre color
                 <br>
-<?php
-                }
-?>
+
             </div>
         </div>
 
