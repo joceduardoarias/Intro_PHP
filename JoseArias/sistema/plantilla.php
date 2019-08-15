@@ -1,6 +1,6 @@
-<?php  
-		include 'includes/header.html';  
-		include 'includes/nav.php';  
+<?php
+		include 'includes/header.html';  //busco la libreria o mi archivo html y ejecutalo
+		include 'includes/nav.php';
 ?>
 
     <main class="container">
